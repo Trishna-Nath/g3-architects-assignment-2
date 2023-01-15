@@ -10,17 +10,20 @@ nav-section
 
 .header-section{
     background: rgba(255, 144, 14, 0.1);
-    width: 1350px;
+    width: 1650px;
     height:1000px;
     align-items: center;
 }
 .nav-bar{
     display: flex;
     justify-content: space-between;
+    margin-right: 60px;
 }
 .list-section{
     display: flex;
+    align-items: center;
     list-style: none;
+    
 }
 .heading{
     font-family: 'Work Sans';
