@@ -201,7 +201,9 @@ Architecture-info
 .architec-section{
     margin-top: 40px;
     display: flex;
-    gap: 50px;
+    gap: 20px;
+    
+    
 }
 .architec-info{
     margin-top: 50px;
@@ -215,30 +217,52 @@ Architecture-info
     font-weight: 700;
     font-size: 45px;
     color: #131313;
+
 }
 .pera{
     font-weight: 400;
     font-size: 16px;
     color: #727272;
-    margin-top: 20px;
+    margin-top: 5px;
+    margin-right: 50px;
 } 
 
-.archi-info{
-    width: 500px;
-height: 600px;
-margin-top: 30px;
+.h4{
+    margin-left:10px;
 }
+
+.archi-info{
+    /* width: 500px;
+height: 600px; */
+margin-top: 30px;
+border: 20px solid white;
+
+}
+.div1{
+    width: 150px;
+    height: 200px;
+    border: 2px solid white;
+    padding-top: 20px;
+}
+
+
 .archi-info div{
     width: 586px;
 height: 130px;
 margin-right: 30px;
 
+
+}
+.archi{
+    background-color: white;
 }
 
 
 .img-sec{
     width: 450px;
     height: 720px;
+    background-color: white;
+    margin-right: 100px;
 }
 
 
@@ -259,6 +283,7 @@ margin-right: 30px;
 
 .facts{
     margin-left: 195px;
+    margin-top: 50px;
 
 }
 .fact{
@@ -305,6 +330,10 @@ margin-right: 30px;
     margin-right: 55px;
     margin-top: 50px;
 }
+ .box1:hover{
+    background-color: rosybrown;
+    color: blanchedalmond;
+}
 
 /*-----------------------
  sponspors-section
@@ -322,12 +351,47 @@ margin-right: 30px;
     margin-top: 50px;
     justify-content: space-evenly;
   }
+
+  /* --------------------------------
+
+  Extra section style
+  ------------------------------------ */
+   .header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+    width: 700px;
+    margin-left: 280px;
+   }
+
+   .topnav {
+    overflow: hidden;
+    background-color: #333;
+    width: 700px;
+    margin-left: 280px;
+    margin-bottom: 30px;
+  }
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+
   .div{
     margin-top: 70px;
     text-align: center;
-    width: 600px;
+    width: 700px;
     height: 40px;
-    margin-left: 400px;
+    margin-left: 280px;
     background-color: hwb(351 65% 3%);
     border-radius: 5px;
     margin-bottom: 50px;
@@ -336,9 +400,9 @@ margin-right: 30px;
     
   }
 
-
   .copyright{
     padding-top: 10px;
+    
   }
 
 
