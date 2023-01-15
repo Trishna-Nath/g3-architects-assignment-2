@@ -225,7 +225,7 @@ Architecture-info
 
 .archi-info{
     width: 500px;
-height: 900px;
+height: 600px;
 margin-top: 30px;
 }
 .archi-info div{
@@ -252,5 +252,93 @@ margin-right: 30px;
     font-weight: 300;
 
 }
+
+
+/* ------------------------
+---------------------------- */
+
+.facts{
+    margin-left: 195px;
+
+}
+.fact{
+    font-weight: 700;
+    font-size: 35px;
+    color: #131313;
+}
+.fact1{
+    margin-top: 10px;
+    font-weight: 400;
+     font-size: 16px;
+     color: #727272;
+}
+.box1{
+    width: 130px;
+    height: 120px;
+    border: 1px solid  rgb(228, 69, 69);
+    margin-top: 50px;
+    
+}
+.box1 img{
+    width: 30px;
+    height: 30px;
+    margin-left: 30px;
+    margin-top: 5px;
+    
+}
+.head-in{
+    margin-left: 30px;
+    margin-top: 5px;
+    color: black;
+}
+.box1,p{
+    font-weight: 500;
+   font-size: 16px;
+   margin-left: 10px;
+   color: #727272;
+}
+
+.awards-section{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 55px;
+    margin-right: 55px;
+    margin-top: 50px;
+}
+
+/*-----------------------
+ sponspors-section
+ ---------------------------- */
+
+ .spon-sec{
+    text-align: center;
+    margin-top: 100px;
+ }
+  .sopn-pera{
+    margin-top: 24px;
+  }
+  .spon-icon{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-evenly;
+  }
+  .div{
+    margin-top: 70px;
+    text-align: center;
+    width: 600px;
+    height: 40px;
+    margin-left: 400px;
+    background-color: hwb(351 65% 3%);
+    border-radius: 5px;
+    margin-bottom: 50px;
+
+    
+    
+  }
+
+
+  .copyright{
+    padding-top: 10px;
+  }
 
 
